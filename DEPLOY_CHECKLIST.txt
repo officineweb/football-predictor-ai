@@ -1,0 +1,11 @@
+CHECKLIST DEPLOY CLOUD
+1) Repository GitHub: carica i file estratti (non lo ZIP come singolo file).
+2) Hosting: Streamlit Community Cloud, non Netlify static hosting.
+3) Main file: dashboard.py
+4) Secret richiesto: API_FOOTBALL_KEY (vedi .env.example; non committare .env).
+5) Verifica build e log di avvio; risolvi eventuali incompatibilità dipendenze.
+6) Apri URL su iPhone Safari > Condividi > Aggiungi alla schermata Home.
+
+ATTENZIONE: pacchetto originale v0.6 preservato. Questa preparazione aggiunge istruzioni,
+non garantisce che l'app sia già deployata né che ogni funzione sia collegata al motore
+advanced_engine.py. È necessario testare l'app dopo il deploy.
